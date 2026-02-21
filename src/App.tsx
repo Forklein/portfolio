@@ -5,6 +5,7 @@ import Skills from "./components/Skills";
 const App = () => {
   return (
     <div className="App">
+      
       <Navbar />
       <Hero />
       <Skills />
