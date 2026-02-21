@@ -4,7 +4,7 @@ const Hero = () => {
       <div className="text-center max-w-2xl">
         
         <h1 className="text-4xl md:text-6xl font-bold mb-4">
-          Ciao, sono Giuseppe 👋
+          Giuseppe Pisani
         </h1>
 
         <p className="text-lg md:text-xl text-gray-600 mb-6">
