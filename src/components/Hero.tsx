@@ -9,7 +9,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="relative -z-1 min-h-screen top-(--navbar-height) flex items-center justify-center px-6 bg-black text-white overflow-hidden">
+    <section className="relative -z-1 min-h-screen flex items-center justify-center px-6 bg-black text-white overflow-hidden">
       
       <Particles
         id="tsparticles"
