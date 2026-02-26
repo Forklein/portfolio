@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+:root {
+  --navbar-height: 0;
+}
+
 html {
   scroll-behavior: smooth;
 }

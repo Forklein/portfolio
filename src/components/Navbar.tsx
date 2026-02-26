@@ -1,10 +1,21 @@
 import { useState } from "react";
+import { useEffect } from "react";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
 
+  useEffect(() => {
+    const navbar = document.querySelector("nav");
+    if (navbar) {
+      document.documentElement.style.setProperty(
+        "--navbar-height",
+        `${navbar.offsetHeight}px`
+      );
+    }
+  }, []);
+
   return (
-    <nav className="fixed top-0 left-0 w-full bg-white/80 backdrop-blur-md shadow-sm z-50">
+    <nav className="fixed top-0 left-0 w-full bg-white shadow-sm z-50">
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
         
         {/* Logo */}
