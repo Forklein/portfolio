@@ -49,18 +49,21 @@ const Hero = () => {
 
       <div className="text-center max-w-2xl z-10">
         
-        <h1 className="text-4xl md:text-6xl font-bold mb-6">
+        <h1 className="text-4xl md:text-6xl font-bold mb-4">
           <TypeAnimation
-            sequence={[
-              "Giuseppe Pisani",
-              2000,
-              "Full Stack Developer",
-              2000,
-            ]}
-            speed={50}
-            repeat={Infinity}
+            sequence={["Giuseppe Pisani"]}
+            speed={4}
+            repeat={0}
           />
         </h1>
+
+        <h2 className="text-2xl md:text-4xl font-bold mb-6">
+          <TypeAnimation
+            sequence={["Full Stack Developer"]}
+            speed={2}
+            repeat={0}
+          />
+        </h2>
 
         <div className="flex justify-center gap-4">
           <a
