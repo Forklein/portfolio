@@ -90,7 +90,8 @@ const Hero = () => {
         <div className="mt-10 flex flex-wrap justify-center gap-4">
 
           <a
-            href="#contact"
+            target="_blank"
+            href="mailto:giuseppepisani2@gmail.com"
             className="flex items-center gap-2 rounded-xl bg-emerald-500 px-7 py-4 font-semibold text-black transition hover:scale-105"
           >
             <Mail size={20} />

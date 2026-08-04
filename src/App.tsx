@@ -1,13 +1,24 @@
 import Hero from "./components/Hero";
-import Navbar from "./components/Navbar";
-import Skills from "./components/Skills";
+import About from "./components/About";
+import Projects from "./components/Projects";
+import Services from "./components/Services";
+import Collaboration from "./components/Collaboration";
+import TechStack from "./components/TechStack";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
     <div className="App">
-      <Navbar />
+      {/* <Navbar /> */}
       <Hero />
-      <Skills />
+      <About />
+      <Projects />
+      <Services />
+      <Collaboration />
+      <TechStack />
+      <Contact />
+      <Footer />
     </div>
   )
 }
