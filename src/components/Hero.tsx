@@ -2,6 +2,7 @@ import { TypeAnimation } from "react-type-animation";
 import Particles from "react-tsparticles";
 import { loadSlim } from "tsparticles-slim";
 import type { Engine } from "tsparticles-engine";
+import { ArrowDown, Download, Mail } from "lucide-react";
 
 const Hero = () => {
   const particlesInit = async (engine: Engine) => {
@@ -9,19 +10,22 @@ const Hero = () => {
   };
 
   return (
-    <section className="relative -z-1 min-h-screen flex items-center justify-center px-6 bg-black text-white overflow-hidden">
-      
+    <section
+      id="home"
+      className="relative flex min-h-screen items-center justify-center overflow-hidden bg-gradient-to-b from-black via-zinc-950 to-black px-6 text-white"
+    >
       <Particles
-        id="tsparticles"
+        id="particles"
         init={particlesInit}
         className="absolute inset-0 -z-10"
         options={{
           background: {
             color: "transparent",
           },
+          fpsLimit: 60,
           particles: {
             number: {
-              value: 80,
+              value: 40,
             },
             color: {
               value: "#10b981",
@@ -29,59 +33,111 @@ const Hero = () => {
             links: {
               enable: true,
               color: "#10b981",
+              opacity: 0.08,
               distance: 150,
-              opacity: 0.2,
-              width: 1,
             },
             move: {
               enable: true,
-              speed: 1,
-            },
-            size: {
-              value: 2,
+              speed: 0.4,
             },
             opacity: {
-              value: 0.5,
+              value: 0.3,
+            },
+            size: {
+              value: 1.5,
             },
           },
         }}
       />
 
-      <div className="text-center max-w-2xl z-10">
-        
-        <h1 className="text-4xl md:text-6xl font-bold mb-4">
-          <TypeAnimation
-            sequence={["Giuseppe Pisani"]}
-            speed={4}
-            repeat={0}
-          />
+      {/* Glow */}
+      <div className="absolute h-[500px] w-[500px] rounded-full bg-emerald-500/10 blur-[120px]" />
+
+      <div className="relative z-10 mx-auto max-w-4xl text-center">
+
+        <span className="mb-8 inline-flex items-center gap-2 rounded-full border border-emerald-500/30 bg-emerald-500/10 px-4 py-2 text-sm text-emerald-400">
+          <span className="h-2 w-2 rounded-full bg-emerald-400"></span>
+          Disponibile per collaborazioni freelance
+        </span>
+
+        <h1 className="text-5xl font-black tracking-tight md:text-7xl">
+          Giuseppe Pisani
         </h1>
 
-        <h2 className="text-2xl md:text-4xl font-bold mb-6">
+        <h2 className="mt-6 text-2xl font-bold text-emerald-400 md:text-4xl">
           <TypeAnimation
-            sequence={["Full Stack Developer"]}
-            speed={2}
-            repeat={0}
+            sequence={[
+              "Full Stack Developer",
+              2000,
+              "Laravel Developer",
+              2000,
+              "React Developer",
+              2000,
+              "WordPress Developer",
+              2000,
+            ]}
+            speed={50}
+            repeat={Infinity}
           />
         </h2>
 
-        <div className="flex justify-center gap-4">
-          <a
-            href="#projects"
-            className="bg-emerald-500 text-black px-6 py-3 rounded-xl hover:opacity-80 transition"
-          >
-            Vedi progetti
-          </a>
+        <p className="mx-auto mt-8 max-w-3xl text-lg leading-8 text-zinc-400 md:text-xl">
+          Realizzo applicazioni web moderne, software gestionali,
+          e-commerce e integrazioni API per aziende e web agency,
+          utilizzando Laravel, React, WordPress e tecnologie cloud.
+        </p>
+
+        <div className="mt-10 flex flex-wrap justify-center gap-4">
 
           <a
             href="#contact"
-            className="border border-emerald-500 px-6 py-3 rounded-xl hover:bg-emerald-500 hover:text-black transition"
+            className="flex items-center gap-2 rounded-xl bg-emerald-500 px-7 py-4 font-semibold text-black transition hover:scale-105"
           >
+            <Mail size={20} />
             Contattami
           </a>
+
+          <a
+            href="/cv.pdf"
+            target="_blank"
+            className="flex items-center gap-2 rounded-xl border border-zinc-700 px-7 py-4 font-semibold transition hover:border-emerald-500 hover:text-emerald-400"
+          >
+            <Download size={20} />
+            Scarica CV
+          </a>
+
+        </div>
+
+        <div className="mt-12 flex flex-wrap justify-center gap-3">
+
+          {[
+            "Laravel",
+            "React",
+            "TypeScript",
+            "WordPress",
+            "Shopify",
+            "Docker",
+            "API",
+            "MySQL",
+          ].map((skill) => (
+            <span
+              key={skill}
+              className="rounded-full border border-zinc-800 bg-zinc-900 px-4 py-2 text-sm text-zinc-300 transition hover:border-emerald-500 hover:text-emerald-400"
+            >
+              {skill}
+            </span>
+          ))}
+
         </div>
 
       </div>
+
+      <a
+        href="#about"
+        className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce text-zinc-500"
+      >
+        <ArrowDown size={30} />
+      </a>
     </section>
   );
 };
