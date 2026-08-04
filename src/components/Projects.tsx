@@ -1,4 +1,5 @@
-import EmblaCarousel from "./EmblaCarousel";
+import { projects } from "../data/projects";
+import ProjectCard from "./ProjectCard";
 
 export default function Projects() {
   return (
@@ -13,14 +14,24 @@ export default function Projects() {
         </span>
 
         <h2 className="mt-4 text-5xl font-black">
-          Alcuni progetti selezionati.
+          Alcuni progetti su cui ho lavorato.
         </h2>
 
-        <p className="mt-6 max-w-2xl text-lg leading-8 text-zinc-400">
-          Una selezione dei progetti che raccontano il mio modo di progettare e sviluppare software.
+        <p className="mt-6 max-w-3xl text-lg leading-8 text-zinc-400">
+          Una selezione di applicazioni web, software gestionali,
+          e-commerce e integrazioni sviluppate per aziende e clienti.
         </p>
 
-        <EmblaCarousel />
+        <div className="mt-20 grid gap-8 lg:grid-cols-2">
+
+          {projects.map((project) => (
+            <ProjectCard
+              key={project.id}
+              project={project}
+            />
+          ))}
+
+        </div>
 
       </div>
     </section>
