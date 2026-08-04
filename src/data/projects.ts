@@ -1,4 +1,4 @@
-import type { Project } from "../types/Project";
+import type { Project } from "../types/project";
 
 import dacflow from "../assets/images/dacflow.webp";
 import pugliamare from "../assets/images/pugliamare.webp";

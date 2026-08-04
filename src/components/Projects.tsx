@@ -1,5 +1,4 @@
-import { projects } from "../data/project";
-import ProjectCard from "./ProjectCard";
+import EmblaCarousel from "./EmblaCarousel";
 
 export default function Projects() {
   return (
@@ -9,30 +8,19 @@ export default function Projects() {
     >
       <div className="mx-auto max-w-7xl">
 
-        <span className="text-sm font-semibold uppercase tracking-widest text-emerald-400">
+        <span className="text-sm font-semibold uppercase tracking-[0.3em] text-emerald-400">
           Featured Projects
         </span>
 
         <h2 className="mt-4 text-5xl font-black">
-          Alcuni progetti su cui ho lavorato.
+          Alcuni progetti selezionati.
         </h2>
 
         <p className="mt-6 max-w-2xl text-lg leading-8 text-zinc-400">
-          Ogni progetto rappresenta una soluzione sviluppata per risolvere
-          esigenze concrete di aziende e clienti, con particolare attenzione
-          a performance, scalabilità e qualità del codice.
+          Una selezione dei progetti che raccontano il mio modo di progettare e sviluppare software.
         </p>
 
-        <div className="mt-20 grid gap-10 lg:grid-cols-2">
-
-          {projects.map((project) => (
-            <ProjectCard
-              key={project.id}
-              project={project}
-            />
-          ))}
-
-        </div>
+        <EmblaCarousel />
 
       </div>
     </section>
