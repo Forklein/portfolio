@@ -1,15 +1,15 @@
 export const stack = [
   {
     category: "Backend",
-    technologies: ["Laravel", "PHP", "Node.js"],
+    technologies: ["Laravel", "PHP", "Node.js", "Python"],
   },
   {
     category: "Frontend",
-    technologies: ["React", "TypeScript", "JavaScript", "Tailwind CSS"],
+    technologies: ["React", "Vue", "TypeScript", "JavaScript", "Tailwind CSS", "Bootstrap"],
   },
   {
     category: "CMS",
-    technologies: ["WordPress", "Shopify"],
+    technologies: ["WordPress", "Shopify", "Magento"],
   },
   {
     category: "Database",
