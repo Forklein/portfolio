@@ -1,5 +1,5 @@
 import { ArrowUpRight } from "lucide-react";
-import type { Project } from "../types/Project";
+import type { Project } from "../types/project";
 
 interface Props {
   project: Project;
