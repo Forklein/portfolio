@@ -46,7 +46,7 @@ const services = [
 
 export default function Services() {
   return (
-    <section id="services" className="bg-zinc-950 py-32 px-6 text-white">
+    <section id="services" className="bg-zinc-950 md:py-32 py-12 px-6 text-white">
       <div className="mx-auto max-w-7xl">
         <span className="text-sm font-semibold uppercase tracking-widest text-emerald-400">
           Services
@@ -60,11 +60,11 @@ export default function Services() {
           agency.
         </p>
 
-        <div className="mt-20 grid gap-8 md:grid-cols-2 xl:grid-cols-3">
+        <div className="mt-20 grid gap-3 md:grid-cols-2 xl:grid-cols-3">
           {services.map((service) => (
             <div
               key={service.title}
-              className="rounded-3xl border border-zinc-800 bg-black p-8 transition hover:-translate-y-2 hover:border-emerald-500"
+              className="rounded-3xl border border-zinc-800 bg-black md:p-8 p-5 transition hover:-translate-y-2 hover:border-emerald-500"
             >
               <div className="text-emerald-400">{service.icon}</div>
 

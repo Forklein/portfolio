@@ -32,7 +32,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="bg-black py-32 px-6 text-white"
+      className="bg-black md:py-32 py-12 px-6 text-white"
     >
       <div className="mx-auto grid max-w-7xl items-center gap-20 lg:grid-cols-2">
 
@@ -44,7 +44,7 @@ export default function About() {
             About Me
           </span>
 
-          <h2 className="mt-4 text-4xl font-black leading-tight md:text-5xl">
+          <h2 className="mt-4 font-black leading-tight text-5xl">
             Sviluppo software che risolvono problemi reali.
           </h2>
 
@@ -75,13 +75,13 @@ export default function About() {
           {stats.map((item) => (
             <div
               key={item.label}
-              className="rounded-3xl border border-zinc-800 bg-zinc-950 p-8 transition hover:-translate-y-2 hover:border-emerald-500"
+              className="rounded-3xl border border-zinc-800 bg-zinc-950 md:p-8 p-5 transition hover:-translate-y-2 hover:border-emerald-500"
             >
               <div className="text-emerald-400">
                 {item.icon}
               </div>
 
-              <h3 className="mt-6 text-3xl font-black">
+              <h3 className="mt-6 text-2xl font-black">
                 {item.value}
               </h3>
 

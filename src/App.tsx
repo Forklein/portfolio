@@ -3,7 +3,7 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import Services from "./components/Services";
 import Collaboration from "./components/Collaboration";
-import TechStack from "./components/TechStack";
+// import TechStack from "./components/TechStack";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
@@ -16,7 +16,7 @@ const App = () => {
       <Projects />
       <Services />
       <Collaboration />
-      <TechStack />
+      {/* <TechStack /> */}
       <Contact />
       <Footer />
     </div>

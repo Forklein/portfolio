@@ -48,13 +48,13 @@ export default function ProjectCard({ project }: Props) {
 
       {/* Content */}
 
-      <div className="p-8">
+      <div className="md:p-8 p-5">
 
         <span className="text-xs font-semibold uppercase tracking-[0.25em] text-emerald-400">
           {project.category ?? "Web Application"}
         </span>
 
-        <h3 className="mt-4 text-3xl font-bold">
+        <h3 className="mt-4 text-2xl font-bold">
           {project.title}
         </h3>
 

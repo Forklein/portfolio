@@ -5,7 +5,7 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="bg-black py-32 px-6 text-white"
+      className="bg-black md:py-32 py-12 px-6 text-white"
     >
       <div className="mx-auto max-w-7xl">
 
@@ -22,7 +22,7 @@ export default function Projects() {
           e-commerce e integrazioni sviluppate per aziende e clienti.
         </p>
 
-        <div className="mt-20 grid gap-8 lg:grid-cols-2">
+        <div className="mt-20 grid gap-3 lg:grid-cols-2">
 
           {projects.map((project) => (
             <ProjectCard

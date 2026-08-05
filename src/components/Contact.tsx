@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="relative overflow-hidden bg-zinc-950 py-32 px-6 text-white"
+      className="relative overflow-hidden bg-zinc-950 md:py-32 py-12 px-6 text-white"
     >
       {/* Glow */}
 
@@ -39,7 +39,7 @@ export default function Contact() {
             </a>
           </div>
 
-          <div className="mt-14 flex flex-wrap gap-8">
+          <div className="mt-14 flex flex-wrap gap-3">
             <a
               href="https://github.com/forklein"
               target="_blank"

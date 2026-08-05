@@ -15,7 +15,7 @@ export default function Collaboration() {
   return (
     <section
       id="collaboration"
-      className="bg-black py-32 px-6 text-white"
+      className="bg-black md:py-32 py-12 px-6 text-white"
     >
       <div className="mx-auto grid max-w-7xl gap-20 lg:grid-cols-2">
 

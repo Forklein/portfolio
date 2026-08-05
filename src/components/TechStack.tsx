@@ -2,7 +2,7 @@ import { stack } from "../data/stack";
 
 export default function TechStack() {
   return (
-    <section id="stack" className="bg-zinc-950 py-32 px-6 text-white">
+    <section id="stack" className="bg-zinc-950 md:py-32 py-12 px-6 text-white">
       <div className="mx-auto max-w-7xl">
         <span className="text-sm font-semibold uppercase tracking-widest text-emerald-400">
           Tech Stack
@@ -21,7 +21,7 @@ export default function TechStack() {
           {stack.map((group) => (
             <div
               key={group.category}
-              className="rounded-3xl border border-zinc-800 bg-black p-8"
+              className="rounded-3xl border border-zinc-800 bg-black md:p-8 p-5"
             >
               <h3 className="text-2xl font-bold">{group.category}</h3>
 

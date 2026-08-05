@@ -64,7 +64,15 @@ const Hero = () => {
           Giuseppe Pisani
         </h1>
 
-        <h2 className="mt-6 text-2xl font-bold text-emerald-400 md:text-4xl">
+        <div className="flex justify-center my-6">
+          <img
+            src="/profile.jpeg"
+            alt="Giuseppe Pisani"
+            className="h-25 w-25 rounded-full text-center object-cover border-4 border-zinc-800 shadow-lg"
+          />
+        </div>
+
+        <h2 className="mt-6 text-2xl font-bold text-emerald-400 md:text-2xl">
           <TypeAnimation
             sequence={[
               "Full Stack Developer",
@@ -109,7 +117,7 @@ const Hero = () => {
 
         </div>
 
-        <div className="mt-12 flex flex-wrap justify-center gap-3">
+        {/* <div className="mt-12 flex flex-wrap justify-center gap-3">
 
           {[
             "Laravel",
@@ -129,7 +137,7 @@ const Hero = () => {
             </span>
           ))}
 
-        </div>
+        </div> */}
 
       </div>
 
