@@ -6,13 +6,11 @@ import Collaboration from "./components/Collaboration";
 // import TechStack from "./components/TechStack";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import { Analytics } from "@vercel/analytics/next"
 
 const App = () => {
   return (
     <div className="App">
       {/* <Navbar /> */}
-      <Analytics />
       <Hero />
       <About />
       <Projects />
