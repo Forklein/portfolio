@@ -2,7 +2,7 @@ import { TypeAnimation } from "react-type-animation";
 import Particles from "react-tsparticles";
 import { loadSlim } from "tsparticles-slim";
 import type { Engine } from "tsparticles-engine";
-import { ArrowDown, Download, Mail } from "lucide-react";
+import { Download, Mail } from "lucide-react";
 
 const Hero = () => {
   const particlesInit = async (engine: Engine) => {
@@ -141,12 +141,12 @@ const Hero = () => {
 
       </div>
 
-      <a
+      {/* <a
         href="#about"
         className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce text-zinc-500"
       >
         <ArrowDown size={30} />
-      </a>
+      </a> */}
     </section>
   );
 };
