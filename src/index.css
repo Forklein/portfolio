@@ -4,6 +4,10 @@
   --navbar-height: 0;
 }
 
+body {
+  font-family: "Geist Sans", sans-serif;
+}
+
 html {
   scroll-behavior: smooth;
 }
