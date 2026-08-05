@@ -58,6 +58,14 @@ export default function Contact() {
             >
               Email
             </a>
+
+            <a
+              href="https://www.instagram.com/peppe_pisani/"
+              target="_blank"
+              className="flex items-center gap-5 text-zinc-400 transition hover:text-white"
+            >
+              Instagram
+            </a>
           </div>
         </div>
       </div>
