@@ -25,7 +25,7 @@ export default function TechStack() {
             >
               <h3 className="text-2xl font-bold">{group.category}</h3>
 
-              <div className="mt-6 flex flex-wrap gap-3">
+              <div className="mt-6 flex flex-wrap gap-5">
                 {group.technologies.map((tech) => (
                   <span
                     key={tech}

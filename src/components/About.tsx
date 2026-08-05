@@ -13,7 +13,7 @@ const stats = [
   },
   {
     icon: <Code2 size={28} />,
-    value: "40+",
+    value: "80+",
     label: "Progetti realizzati",
   },
   {

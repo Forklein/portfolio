@@ -22,7 +22,7 @@ export default function Projects() {
           e-commerce e integrazioni sviluppate per aziende e clienti.
         </p>
 
-        <div className="mt-20 grid gap-3 lg:grid-cols-2">
+        <div className="mt-20 grid gap-5 lg:grid-cols-2">
 
           {projects.map((project) => (
             <ProjectCard

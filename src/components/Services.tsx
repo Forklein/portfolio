@@ -60,7 +60,7 @@ export default function Services() {
           agency.
         </p>
 
-        <div className="mt-20 grid gap-3 md:grid-cols-2 xl:grid-cols-3">
+        <div className="mt-20 grid gap-5 md:grid-cols-2 xl:grid-cols-3">
           {services.map((service) => (
             <div
               key={service.title}

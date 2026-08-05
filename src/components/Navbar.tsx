@@ -22,7 +22,7 @@ const Navbar = () => {
         <h1 className="text-xl font-bold">Giuseppe</h1>
 
         {/* Desktop menu */}
-        <ul className="hidden md:flex gap-3 md:p-8 p-5 text-sm font-medium">
+        <ul className="hidden md:flex gap-5 md:p-8 p-5 text-sm font-medium">
           <li>
             <a href="#projects" className="hover:text-gray-500">
               Progetti

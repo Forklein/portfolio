@@ -117,7 +117,7 @@ const Hero = () => {
 
         </div>
 
-        {/* <div className="mt-12 flex flex-wrap justify-center gap-3">
+        {/* <div className="mt-12 flex flex-wrap justify-center gap-5">
 
           {[
             "Laravel",
