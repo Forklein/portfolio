@@ -8,7 +8,7 @@ import {
 const stats = [
   {
     icon: <BriefcaseBusiness size={28} />,
-    value: "5+",
+    value: "7+",
     label: "Anni di esperienza",
   },
   {
