@@ -12,7 +12,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="relative flex min-h-screen items-center justify-center overflow-hidden bg-gradient-to-b from-black via-zinc-950 to-black px-6 py-28 text-white md:py-0"
+      className="relative flex min-h-screen items-center justify-center overflow-hidden bg-gradient-to-b from-black via-zinc-950 to-black px-6 text-white"
     >
       <Particles
         id="particles"

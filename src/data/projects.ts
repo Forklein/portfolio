@@ -4,6 +4,9 @@ import dacflow from "../assets/images/dacflow.webp";
 import pugliamare from "../assets/images/pugliamare.webp";
 import afbeautyart from "../assets/images/afbeautyart.webp";
 import gossyparty from "../assets/images/gossyparty.webp";
+// import eterea from "../assets/images/eterea.webp";
+import caseificio from "../assets/images/caseificio.webp";
+import horsescript from "../assets/images/horse.webp";
 
 export const projects: Project[] = [
   {
@@ -74,6 +77,70 @@ export const projects: Project[] = [
     ],
 
     category: "Community Platform",
+
+    featured: true,
+  },
+
+  {
+    id: "horse-script",
+    title: "Horse Script",
+
+    description:
+      "Sviluppo di un'estensione Google Chrome per l'automazione di workflow nel browser, con monitoraggio degli eventi, compilazione automatica dei form, gestione di task personalizzati e notifiche in tempo reale tramite Discord Webhook.",
+
+    image: horsescript,
+
+    technologies: [
+      "JavaScript",
+      "Chrome Extension",
+      "Discord API",
+      "HTML",
+      "CSS"
+    ],
+
+    category: "Bot",
+
+    featured: true,
+  },
+
+  // {
+  //   id: "eterea",
+  //   title: "Eterea Cosmesi",
+
+  //   description:
+  //     "Sviluppo e personalizzazione di un e-commerce in Shopify per un brand di cosmetica, con implementazione di funzionalità custom, ottimizzazioni del frontend e sviluppo di soluzioni su misura per migliorare l'esperienza di acquisto.",
+
+  //   image: eterea,
+
+  //   technologies: [
+  //     "Shopify",
+  //     "API",
+  //     "Liquid",
+  //     "JavaScript",
+  //     "MySQL"
+  //   ],
+
+  //   category: "E-commerce",
+
+  //   featured: true,
+  // },
+  {
+    id: "caseificio-artigiana",
+    title: "Caseificio Artigiana",
+
+    description:
+      "Sviluppo e personalizzazione di un sito WordPress con funzionalità custom, componenti sviluppati su misura e ottimizzazioni dell'esperienza utente. Realizzazione di soluzioni personalizzate lato frontend e backend per soddisfare le esigenze del cliente.",
+
+    image: caseificio,
+
+    technologies: [
+      "WordPress",
+      "PHP",
+      "JavaScript",
+      "MySQL"
+    ],
+
+    category: "Corporate Website",
 
     featured: true,
   }

@@ -6,8 +6,8 @@ export default function Contact() {
 
       <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full bg-emerald-500/10 blur-[120px]" />
 
-      <div className="relative mx-auto max-w-7xl">
-        <div className="rounded-[40px] border border-zinc-800 bg-black/70 p-12 backdrop-blur">
+      <div className="relative mx-auto max-w-96 md:max-w-6xl">
+        <div className="rounded-[40px] border border-zinc-800 bg-black/70 p-6 md:p-12 backdrop-blur">
           <span className="text-sm font-semibold uppercase tracking-[0.3em] text-emerald-400">
             Contact
           </span>
