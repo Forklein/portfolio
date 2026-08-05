@@ -14,7 +14,7 @@ export const projects: Project[] = [
     id: "dacflow",
     title: "Dacflow",
     description:
-      "Gestionale sviluppato in Laravel per la gestione di ordini, clienti, fatturazione elettronica, WhatsApp e automazioni aziendali.",
+      "Gestionale sviluppato in Laravel per l'emissione di scontrini elettronici e la gestione di ordini, clienti, fatturazione elettronica, WhatsApp e automazioni aziendali.",
 
     image: dacflow,
 
