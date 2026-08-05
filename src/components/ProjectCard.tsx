@@ -35,9 +35,10 @@ export default function ProjectCard({ project }: Props) {
           src={project.image}
           alt={project.title}
           className="
-            h-72
-            w-full
-            object-cover
+            h-32
+            w-32
+            mx-auto
+            object-contain
             transition-all
             duration-500
             group-hover:scale-105

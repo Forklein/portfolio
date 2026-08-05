@@ -5,7 +5,8 @@ import pugliamare from "../assets/images/pugliamare.webp";
 import afbeautyart from "../assets/images/afbeautyart.webp";
 import gossyparty from "../assets/images/gossyparty.webp";
 // import eterea from "../assets/images/eterea.webp";
-import caseificio from "../assets/images/caseificio.webp";
+// import caseificio from "../assets/images/caseificio.webp";
+import avvocato from "../assets/images/avvocato.webp";
 import horsescript from "../assets/images/horse.webp";
 
 export const projects: Project[] = [
@@ -124,23 +125,45 @@ export const projects: Project[] = [
 
   //   featured: true,
   // },
+  // {
+  //   id: "caseificio-artigiana",
+  //   title: "Caseificio Artigiana",
+
+  //   description:
+  //     "Sviluppo e personalizzazione di un sito WordPress con funzionalità custom, componenti sviluppati su misura e ottimizzazioni dell'esperienza utente. Realizzazione di soluzioni personalizzate lato frontend e backend per soddisfare le esigenze del cliente.",
+
+  //   image: caseificio,
+
+  //   technologies: [
+  //     "WordPress",
+  //     "PHP",
+  //     "JavaScript",
+  //     "MySQL"
+  //   ],
+
+  //   category: "Corporate Website",
+
+  //   featured: true,
+  // }
+
   {
-    id: "caseificio-artigiana",
-    title: "Caseificio Artigiana",
+    id: "avvocato-emilia-pisani",
+    title: "Avvocato Emilia Pisani",
 
     description:
-      "Sviluppo e personalizzazione di un sito WordPress con funzionalità custom, componenti sviluppati su misura e ottimizzazioni dell'esperienza utente. Realizzazione di soluzioni personalizzate lato frontend e backend per soddisfare le esigenze del cliente.",
+      "Sviluppo di un sito web professionale in WordPress con funzionalità personalizzate, aree servizi dinamiche, gestione dei contenuti e ottimizzazioni SEO, progettato per valorizzare l'attività dello studio legale e facilitare il contatto con i clienti.",
 
-    image: caseificio,
+    image: avvocato,
 
     technologies: [
       "WordPress",
       "PHP",
       "JavaScript",
-      "MySQL"
+      "MySQL",
+      "SEO"
     ],
 
-    category: "Corporate Website",
+    category: "Professional Website",
 
     featured: true,
   }
