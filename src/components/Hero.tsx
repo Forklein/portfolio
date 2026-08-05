@@ -95,12 +95,12 @@ const Hero = () => {
           utilizzando Laravel, React, WordPress e tecnologie cloud.
         </p>
 
-        <div className="mt-10 flex flex-wrap justify-center gap-4">
+        <div className="mt-10 flex justify-center gap-4">
 
           <a
             target="_blank"
             href="mailto:giuseppepisani2@gmail.com"
-            className="flex items-center gap-2 rounded-xl bg-emerald-500 px-7 py-4 font-semibold text-black transition hover:scale-105"
+            className="flex items-center gap-2 rounded-xl bg-emerald-500 px-5 py-3 font-semibold text-black transition hover:scale-105"
           >
             <Mail size={20} />
             Contattami
@@ -109,7 +109,7 @@ const Hero = () => {
           <a
             href="/cv.pdf"
             target="_blank"
-            className="flex items-center gap-2 rounded-xl border border-zinc-700 px-7 py-4 font-semibold transition hover:border-emerald-500 hover:text-emerald-400"
+            className="flex items-center gap-2 rounded-xl border border-zinc-700 px-5 py-3 font-semibold transition hover:border-emerald-500 hover:text-emerald-400"
           >
             <Download size={20} />
             Scarica CV
