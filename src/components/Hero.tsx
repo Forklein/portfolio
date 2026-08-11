@@ -91,8 +91,7 @@ const Hero = () => {
 
         <p className="mx-auto mt-8 max-w-3xl text-lg leading-8 text-zinc-400 md:text-xl">
           Realizzo applicazioni web moderne, software gestionali,
-          e-commerce e integrazioni API per aziende e web agency,
-          utilizzando Laravel, React, WordPress e tecnologie cloud.
+          e-commerce e integrazioni API per aziende e web agency.
         </p>
 
         <div className="mt-10 flex justify-center gap-4">

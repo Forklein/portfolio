@@ -12,7 +12,7 @@ const services = [
     icon: <Code2 size={34} />,
     title: "Web Application",
     description:
-      "Sviluppo applicazioni web moderne con Laravel, React e TypeScript.",
+      "Sviluppo applicazioni web moderne.",
   },
   {
     icon: <ShoppingCart size={34} />,

@@ -60,12 +60,6 @@ export default function About() {
             scalabili e semplici da mantenere.
           </p>
 
-          <p className="mt-6 text-lg leading-8 text-zinc-400">
-            Utilizzo principalmente Laravel, React, WordPress,
-            Shopify e tecnologie cloud per realizzare soluzioni
-            affidabili e orientate ai risultati.
-          </p>
-
         </div>
 
         {/* Stats */}

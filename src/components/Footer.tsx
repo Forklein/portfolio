@@ -11,9 +11,8 @@ export default function Footer() {
         </p>
 
         <p className="flex items-center gap-2">
-          Built with
+          P.IVA 09132100729
           <Heart size={16} className="text-emerald-400" />
-          React • TypeScript • Tailwind CSS
         </p>
 
       </div>
