@@ -95,16 +95,13 @@ const Hero = () => {
         </p>
 
         <div className="mt-10 flex justify-center gap-4">
-
           <a
-            target="_blank"
-            href="mailto:giuseppepisani2@gmail.com"
+            href="#contact"
             className="flex items-center gap-2 rounded-xl bg-emerald-500 px-5 py-3 font-semibold text-black transition hover:scale-105"
           >
             <Mail size={20} />
             Contattami
           </a>
-
         </div>
 
         {/* <div className="mt-12 flex flex-wrap justify-center gap-5">
