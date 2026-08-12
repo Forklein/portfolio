@@ -2,7 +2,7 @@ import { TypeAnimation } from "react-type-animation";
 import Particles from "react-tsparticles";
 import { loadSlim } from "tsparticles-slim";
 import type { Engine } from "tsparticles-engine";
-import { Download, Mail } from "lucide-react";
+import { Mail } from "lucide-react";
 
 const Hero = () => {
   const particlesInit = async (engine: Engine) => {
