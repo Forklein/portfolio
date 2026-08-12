@@ -105,15 +105,6 @@ const Hero = () => {
             Contattami
           </a>
 
-          <a
-            href="/cv.pdf"
-            target="_blank"
-            className="flex items-center gap-2 rounded-xl border border-zinc-700 px-5 py-3 font-semibold transition hover:border-emerald-500 hover:text-emerald-400"
-          >
-            <Download size={20} />
-            Scarica CV
-          </a>
-
         </div>
 
         {/* <div className="mt-12 flex flex-wrap justify-center gap-5">
