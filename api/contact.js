@@ -26,13 +26,13 @@ export default async function handler(req, res) {
             replyTo: email,
             subject: `Nuovo contatto dal portfolio — ${name} ${surname}`,
             text: `
-                Nome: ${name}
-                Cognome: ${surname}
-                Email: ${email}
+            Nome: ${name}
+            Cognome: ${surname}
+            Email: ${email}
 
-                Messaggio:
+            Messaggio:
 
-                ${message}
+            ${message}
             `,
         });
 
