@@ -22,10 +22,10 @@ const Hero = () => {
           background: {
             color: "transparent",
           },
-          fpsLimit: 60,
+          fpsLimit: 30,
           particles: {
             number: {
-              value: 40,
+              value: 100,
             },
             color: {
               value: "#10b981",
@@ -53,9 +53,9 @@ const Hero = () => {
       {/* Glow */}
       <div className="absolute h-[500px] w-[500px] rounded-full bg-emerald-500/10 blur-[120px]" />
 
-      <div className="relative z-10 mx-auto max-w-4xl text-center">
+      <div className="relative z-10 mx-auto max-w-4xl text-center -translate-y-10 md:translate-y-0">
 
-        <span className="-translate-y-10 mb-8 inline-flex items-center gap-2 rounded-full border border-emerald-500/30 bg-emerald-500/10 px-4 py-2 text-sm text-emerald-400 md:translate-y-0">
+        <span className="mb-8 inline-flex items-center gap-2 rounded-full border border-emerald-500/30 bg-emerald-500/10 px-4 py-2 text-sm text-emerald-400">
           <span className="h-2 w-2 rounded-full bg-emerald-400"></span>
           Disponibile per collaborazioni freelance
         </span>
