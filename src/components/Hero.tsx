@@ -55,10 +55,10 @@ const Hero = () => {
 
       <div className="relative z-10 mx-auto max-w-4xl text-center">
 
-      <span className="-translate-y-10 mb-8 inline-flex items-center gap-2 rounded-full border border-emerald-500/30 bg-emerald-500/10 px-4 py-2 text-sm text-emerald-400 md:translate-y-0">
-        <span className="h-2 w-2 rounded-full bg-emerald-400"></span>
-        Disponibile per collaborazioni freelance
-      </span>
+        <span className="-translate-y-10 mb-8 inline-flex items-center gap-2 rounded-full border border-emerald-500/30 bg-emerald-500/10 px-4 py-2 text-sm text-emerald-400 md:translate-y-0">
+          <span className="h-2 w-2 rounded-full bg-emerald-400"></span>
+          Disponibile per collaborazioni freelance
+        </span>
 
         <h1 className="text-5xl font-black tracking-tight md:text-7xl">
           Giuseppe Pisani
