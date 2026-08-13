@@ -25,7 +25,7 @@ const Hero = () => {
           fpsLimit: 60,
           particles: {
             number: {
-              value: 150,
+              value: 60,
             },
             color: {
               value: "#10b981",
