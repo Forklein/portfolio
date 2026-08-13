@@ -19,32 +19,36 @@ const Hero = () => {
         init={particlesInit}
         className="pointer-events-none absolute inset-0 z-0"
         options={{
-          background: {
-            color: "transparent",
+          fullScreen: {
+            enable: false,
           },
+          detectRetina: false,
           fpsLimit: 30,
+
           particles: {
             number: {
-              value: 100,
+              value: 25,
             },
+
             color: {
               value: "#10b981",
             },
+
             links: {
-              enable: true,
-              color: "#10b981",
-              opacity: 0.08,
-              distance: 150,
+              enable: false,
             },
+
             move: {
               enable: true,
-              speed: 0.4,
+              speed: 0.25,
             },
+
             opacity: {
-              value: 0.3,
+              value: 0.25,
             },
+
             size: {
-              value: 1.5,
+              value: 1.2,
             },
           },
         }}
