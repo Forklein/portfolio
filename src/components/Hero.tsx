@@ -81,12 +81,6 @@ const Hero = () => {
             sequence={[
               "Full Stack Developer",
               2000,
-              "Laravel Developer",
-              2000,
-              "React Developer",
-              2000,
-              "WordPress Developer",
-              2000,
             ]}
             speed={50}
             repeat={Infinity}
@@ -95,7 +89,7 @@ const Hero = () => {
 
         <p className="mx-auto mt-8 max-w-3xl text-lg leading-8 text-zinc-400 md:text-xl">
           Realizzo applicazioni web moderne, software gestionali,
-          e-commerce e integrazioni API per aziende e web agency.
+          e-commerce e integrazioni API.
         </p>
 
         <div className="mt-10 flex justify-center gap-4">

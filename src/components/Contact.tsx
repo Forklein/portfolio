@@ -73,7 +73,7 @@ export default function Contact() {
               <h2 className="mt-4 text-5xl font-black leading-tight">
                 Hai un progetto in mente?
                 <br />
-                Parliamone.
+                Scrivimi.
               </h2>
 
               <p className="mt-8 text-lg leading-8 text-zinc-400">
@@ -137,7 +137,7 @@ export default function Contact() {
                     required
                     value={form.name}
                     onChange={handleChange}
-                    placeholder="Mario"
+                    placeholder="Giuseppe"
                     className="w-full rounded-xl border border-zinc-800 bg-zinc-900/70 px-4 py-3.5 text-white outline-none transition placeholder:text-zinc-600 focus:border-emerald-500"
                   />
                 </div>
@@ -157,7 +157,7 @@ export default function Contact() {
                     required
                     value={form.surname}
                     onChange={handleChange}
-                    placeholder="Rossi"
+                    placeholder="Pisani"
                     className="w-full rounded-xl border border-zinc-800 bg-zinc-900/70 px-4 py-3.5 text-white outline-none transition placeholder:text-zinc-600 focus:border-emerald-500"
                   />
                 </div>
@@ -178,7 +178,7 @@ export default function Contact() {
                   required
                   value={form.email}
                   onChange={handleChange}
-                  placeholder="mario@email.com"
+                  placeholder="peppe@email.com"
                   className="w-full rounded-xl border border-zinc-800 bg-zinc-900/70 px-4 py-3.5 text-white outline-none transition placeholder:text-zinc-600 focus:border-emerald-500"
                 />
               </div>
@@ -198,7 +198,7 @@ export default function Contact() {
                   rows={6}
                   value={form.message}
                   onChange={handleChange}
-                  placeholder="Raccontami qualcosa del tuo progetto..."
+                  placeholder="Messaggio"
                   className="w-full resize-none rounded-xl border border-zinc-800 bg-zinc-900/70 px-4 py-3.5 text-white outline-none transition placeholder:text-zinc-600 focus:border-emerald-500"
                 />
               </div>

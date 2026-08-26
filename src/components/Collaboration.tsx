@@ -4,9 +4,9 @@ import {
 
 const points = [
   "Collaborazione con web agency",
-  "Supporto durante i picchi di lavoro",
+  "Formazione di nuove risorse",
   "Sviluppo di nuovi progetti",
-  "Manutenzione evolutiva",
+  "Manutenzione",
   "Integrazione API",
   "Codice pulito e documentato",
 ];
@@ -30,15 +30,14 @@ export default function Collaboration() {
           </h2>
 
           <p className="mt-8 text-lg leading-8 text-zinc-400">
-            Collaboro con aziende e web agency offrendo supporto
+            Collaboro con aziende offrendo supporto
             nello sviluppo di applicazioni web, e-commerce,
             software gestionali e integrazioni API.
           </p>
 
           <p className="mt-6 text-lg leading-8 text-zinc-400">
-            Posso affiancare il vostro team per un progetto
-            specifico oppure lavorare continuativamente come
-            sviluppatore esterno.
+            Che si tratti di un progetto specifico o di una collaborazione continuativa, 
+            posso affiancare il vostro team come sviluppatore esterno
           </p>
 
         </div>

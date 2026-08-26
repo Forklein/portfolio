@@ -30,7 +30,7 @@ const services = [
     icon: <Database size={34} />,
     title: "Backend Development",
     description:
-      "Architettura backend, database MySQL, autenticazione e automazioni.",
+      "Architettura backend, database SQL e NOSQL, autenticazione e automazioni.",
   },
   {
     icon: <Cloud size={34} />,
@@ -40,7 +40,7 @@ const services = [
   {
     icon: <Globe size={34} />,
     title: "Freelance Collaboration",
-    description: "Supporto tecnico continuativo per aziende e web agency.",
+    description: "Supporto tecnico continuativo per aziende.",
   },
 ];
 
@@ -55,9 +55,9 @@ export default function Services() {
         <h2 className="mt-4 text-5xl font-black">Come posso aiutarti.</h2>
 
         <p className="mt-6 max-w-2xl text-lg leading-8 text-zinc-400">
-          Offro supporto nello sviluppo di software, applicazioni web e
-          integrazioni personalizzate, collaborando sia con aziende che con web
-          agency.
+            Sviluppo software, applicazioni web e integrazioni su misura, 
+            sia affiancando team esistenti 
+            sia realizzando progetti completi su commissione.
         </p>
 
         <div className="mt-20 grid gap-5 md:grid-cols-2 xl:grid-cols-3">

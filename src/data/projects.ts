@@ -18,7 +18,7 @@ export const projects: Project[] = [
 
     image: dacflow,
 
-    technologies: ["Laravel", "Livewire", "MySQL", "Docker"],
+    technologies: ["Laravel", "Livewire", "Alpine JS", "Pusher", "MySQL", "Docker"],
 
     featured: true,
   },
@@ -32,7 +32,7 @@ export const projects: Project[] = [
 
     image: pugliamare,
 
-    technologies: ["Laravel", "Salesforce", "Shopify", "API", "Liquid"],
+    technologies: ["Shopify", "Salesforce", "API", "Liquid", "PHP"],
 
     category: "E-commerce",
 
