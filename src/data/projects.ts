@@ -4,13 +4,14 @@ import dacflow from "../assets/images/dacflow.webp";
 import pugliamare from "../assets/images/pugliamare.webp";
 import afbeautyart from "../assets/images/afbeautyart.webp";
 import gossyparty from "../assets/images/gossyparty.webp";
-// import eterea from "../assets/images/eterea.webp";
+import eterea from "../assets/images/eterea.webp";
 // import caseificio from "../assets/images/caseificio.webp";
 import avvocato from "../assets/images/avvocato.webp";
 import horsescript from "../assets/images/horse.webp";
-import porterossestudio from "../assets/images/porterossestudio.webp";
-import procreateproject from "../assets/images/procreateproject.webp";
+// import porterossestudio from "../assets/images/porterossestudio.webp";
+// import procreateproject from "../assets/images/procreateproject.webp";
 import thesocietyluxury from "../assets/images/thesocietyluxury.webp";
+import vespaescape from "../assets/images/vespaescape.webp";
 
 export const projects: Project[] = [
   {
@@ -108,89 +109,111 @@ export const projects: Project[] = [
   },
 
   {
-    id: "porte-rosse-studio",
-    title: "Porte Rosse Studio",
+    id: "vespa-escape",
+    title: "Vespa Escape",
 
     description:
-      "Realizzazione del sito web per un atelier di architettura con un'interfaccia elegante e fortemente visuale, progettata per valorizzare i progetti dello studio, la sua identità e il portfolio di architettura, interior e paesaggio.",
+      "Sviluppo di una piattaforma e-commerce dedicata alle esperienze in Vespa in Puglia, con gestione di tour, noleggi, pacchetti multiday e tour personalizzati. Un'esperienza digitale pensata per valorizzare il territorio e semplificare la scoperta e la prenotazione delle esperienze.",
 
-    image: porterossestudio,
+    image: vespaescape,
 
     technologies: [
-      "React",
+      "Shopify",
+      "Liquid",
       "JavaScript",
       "HTML",
       "CSS"
     ],
 
-    category: "Website",
+    category: "E-commerce",
 
     featured: true,
   },
 
   // {
-  //   id: "eterea",
-  //   title: "Eterea Cosmesi",
+  //   id: "porte-rosse-studio",
+  //   title: "Porte Rosse Studio",
 
   //   description:
-  //     "Sviluppo e personalizzazione di un e-commerce in Shopify per un brand di cosmetica, con implementazione di funzionalità custom, ottimizzazioni del frontend e sviluppo di soluzioni su misura per migliorare l'esperienza di acquisto.",
+  //     "Realizzazione del sito web per un atelier di architettura con un'interfaccia elegante e fortemente visuale, progettata per valorizzare i progetti dello studio, la sua identità e il portfolio di architettura, interior e paesaggio.",
 
-  //   image: eterea,
+  //   image: porterossestudio,
 
   //   technologies: [
-  //     "Shopify",
-  //     "API",
-  //     "Liquid",
+  //     "React",
   //     "JavaScript",
-  //     "MySQL"
+  //     "HTML",
+  //     "CSS"
   //   ],
 
-  //   category: "E-commerce",
+  //   category: "Website",
 
   //   featured: true,
   // },
-  // {
-  //   id: "caseificio-artigiana",
-  //   title: "Caseificio Artigiana",
-
-  //   description:
-  //     "Sviluppo e personalizzazione di un sito WordPress con funzionalità custom, componenti sviluppati su misura e ottimizzazioni dell'esperienza utente. Realizzazione di soluzioni personalizzate lato frontend e backend per soddisfare le esigenze del cliente.",
-
-  //   image: caseificio,
-
-  //   technologies: [
-  //     "WordPress",
-  //     "PHP",
-  //     "JavaScript",
-  //     "MySQL"
-  //   ],
-
-  //   category: "Corporate Website",
-
-  //   featured: true,
-  // }
 
   {
-    id: "procreate-project",
-    title: "Procreate Project",
+    id: "eterea",
+    title: "Eterea Cosmesi",
 
     description:
-      "Sviluppo di una piattaforma web per un'organizzazione internazionale dedicata al supporto di artiste e artisti con responsabilità di cura, con gestione di progetti, pubblicazioni, archivi, piattaforme e contenuti editoriali.",
+      "Sviluppo e personalizzazione di un e-commerce in Shopify per un brand di cosmetica, con implementazione di funzionalità custom, ottimizzazioni del frontend e sviluppo di soluzioni su misura per migliorare l'esperienza di acquisto.",
 
-    image: procreateproject,
+    image: eterea,
+
+    technologies: [
+      "Shopify",
+      "API",
+      "Liquid",
+      "JavaScript",
+      "MySQL"
+    ],
+
+    category: "E-commerce",
+
+    featured: true,
+  },
+  {
+    id: "caseificio-artigiana",
+    title: "Caseificio Artigiana",
+
+    description:
+      "Sviluppo e personalizzazione di un sito WordPress con funzionalità custom, componenti sviluppati su misura e ottimizzazioni dell'esperienza utente. Realizzazione di soluzioni personalizzate lato frontend e backend per soddisfare le esigenze del cliente.",
+
+    image: caseificio,
 
     technologies: [
       "WordPress",
       "PHP",
       "JavaScript",
-      "HTML",
-      "CSS"
+      "MySQL"
     ],
 
-    category: "Website",
+    category: "Corporate Website",
 
     featured: true,
-  },
+  }
+
+  // {
+  //   id: "procreate-project",
+  //   title: "Procreate Project",
+
+  //   description:
+  //     "Sviluppo di una piattaforma web per un'organizzazione internazionale dedicata al supporto di artiste e artisti con responsabilità di cura, con gestione di progetti, pubblicazioni, archivi, piattaforme e contenuti editoriali.",
+
+  //   image: procreateproject,
+
+  //   technologies: [
+  //     "WordPress",
+  //     "PHP",
+  //     "JavaScript",
+  //     "HTML",
+  //     "CSS"
+  //   ],
+
+  //   category: "Website",
+
+  //   featured: true,
+  // },
 
   {
     id: "the-society-luxury",
