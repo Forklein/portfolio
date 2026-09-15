@@ -26,7 +26,7 @@ export default function Collaboration() {
           </span>
 
           <h2 className="mt-4 text-5xl font-black">
-            Un freelance che lavora come parte del tuo team.
+            Un developer, una parte del tuo team.
           </h2>
 
           <p className="mt-8 text-lg leading-8 text-zinc-400">
