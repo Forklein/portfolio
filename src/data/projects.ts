@@ -191,7 +191,7 @@ export const projects: Project[] = [
     category: "Corporate Website",
 
     featured: true,
-  }
+  },
 
   // {
   //   id: "procreate-project",
