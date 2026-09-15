@@ -65,6 +65,7 @@ export default function About() {
 
           <div className="mt-10 flex justify-start align-center gap-4">
             <a
+              target="_blank"
               href="https://www.linkedin.com/in/giuseppe-pisani93/"
               className="flex items-center gap-2 rounded-xl bg-emerald-500 px-5 py-3 text-black transition hover:scale-105"
             >
