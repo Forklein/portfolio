@@ -5,7 +5,7 @@ import {
   BadgeCheck,
 } from "lucide-react";
 
-import { SiLinkedin } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 
 const stats = [
   {
@@ -63,12 +63,12 @@ export default function About() {
             trovare soluzioni concrete e trasformare le esigenze in prodotti digitali funzionali e affidabili.
           </p>
 
-        <div className="mt-10 flex justify-center gap-4">
+        <div className="mt-10 flex justify-center align-center gap-4">
           <a
             href="https://www.linkedin.com/in/giuseppe-pisani93/"
             className="flex items-center gap-2 rounded-xl bg-emerald-500 px-5 py-3 font-semibold text-black transition hover:scale-105"
           >
-            <SiLinkedin size={20} />
+            <FaLinkedin size={20} />
             Il mio profilo Linkedin
           </a>
         </div>
