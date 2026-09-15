@@ -3,8 +3,9 @@ import {
   BriefcaseBusiness,
   Layers3,
   BadgeCheck,
-  LinkedIn,
 } from "lucide-react";
+
+import { FaLinkedinIn } from "react-icons/fa";
 
 const stats = [
   {
@@ -67,7 +68,7 @@ export default function About() {
             href="https://www.linkedin.com/in/giuseppe-pisani93/"
             className="flex items-center gap-2 rounded-xl bg-emerald-500 px-5 py-3 font-semibold text-black transition hover:scale-105"
           >
-            <LinkedIn size={20} />
+            <FaLinkedinIn size={20} />
             Il mio profilo Linkedin
           </a>
         </div>
