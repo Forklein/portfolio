@@ -172,26 +172,26 @@ export const projects: Project[] = [
 
     featured: true,
   },
-  {
-    id: "caseificio-artigiana",
-    title: "Caseificio Artigiana",
+  // {
+  //   id: "caseificio-artigiana",
+  //   title: "Caseificio Artigiana",
 
-    description:
-      "Sviluppo e personalizzazione di un sito WordPress con funzionalità custom, componenti sviluppati su misura e ottimizzazioni dell'esperienza utente. Realizzazione di soluzioni personalizzate lato frontend e backend per soddisfare le esigenze del cliente.",
+  //   description:
+  //     "Sviluppo e personalizzazione di un sito WordPress con funzionalità custom, componenti sviluppati su misura e ottimizzazioni dell'esperienza utente. Realizzazione di soluzioni personalizzate lato frontend e backend per soddisfare le esigenze del cliente.",
 
-    image: caseificio,
+  //   image: caseificio,
 
-    technologies: [
-      "WordPress",
-      "PHP",
-      "JavaScript",
-      "MySQL"
-    ],
+  //   technologies: [
+  //     "WordPress",
+  //     "PHP",
+  //     "JavaScript",
+  //     "MySQL"
+  //   ],
 
-    category: "Corporate Website",
+  //   category: "Corporate Website",
 
-    featured: true,
-  },
+  //   featured: true,
+  // },
 
   // {
   //   id: "procreate-project",
