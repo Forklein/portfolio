@@ -8,6 +8,9 @@ import gossyparty from "../assets/images/gossyparty.webp";
 // import caseificio from "../assets/images/caseificio.webp";
 import avvocato from "../assets/images/avvocato.webp";
 import horsescript from "../assets/images/horse.webp";
+import porterossestudio from "../assets/images/porterossestudio.webp";
+import procreateproject from "../assets/images/procreateproject.webp";
+import thesocietyluxury from "../assets/images/thesocietyluxury.webp";
 
 export const projects: Project[] = [
   {
@@ -104,6 +107,27 @@ export const projects: Project[] = [
     featured: true,
   },
 
+  {
+    id: "porte-rosse-studio",
+    title: "Porte Rosse Studio",
+
+    description:
+      "Realizzazione del sito web per un atelier di architettura con un'interfaccia elegante e fortemente visuale, progettata per valorizzare i progetti dello studio, la sua identità e il portfolio di architettura, interior e paesaggio.",
+
+    image: porterossestudio,
+
+    technologies: [
+      "React",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+
+    category: "Website",
+
+    featured: true,
+  },
+
   // {
   //   id: "eterea",
   //   title: "Eterea Cosmesi",
@@ -145,6 +169,50 @@ export const projects: Project[] = [
 
   //   featured: true,
   // }
+
+  {
+    id: "procreate-project",
+    title: "Procreate Project",
+
+    description:
+      "Sviluppo di una piattaforma web per un'organizzazione internazionale dedicata al supporto di artiste e artisti con responsabilità di cura, con gestione di progetti, pubblicazioni, archivi, piattaforme e contenuti editoriali.",
+
+    image: procreateproject,
+
+    technologies: [
+      "WordPress",
+      "PHP",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+
+    category: "Website",
+
+    featured: true,
+  },
+
+  {
+    id: "the-society-luxury",
+    title: "The Society Luxury",
+
+    description:
+      "Sviluppo di una piattaforma e-commerce dedicata al luxury travel in Puglia, progettata per presentare esperienze esclusive, pacchetti, eventi e contenuti editoriali attraverso un'esperienza digitale fortemente visuale e orientata alla conversione.",
+
+    image: thesocietyluxury,
+
+    technologies: [
+      "Shopify",
+      "Liquid",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+
+    category: "E-commerce",
+
+    featured: true,
+  },
 
   {
     id: "avvocato-emilia-pisani",

@@ -3,12 +3,13 @@ import {
   BriefcaseBusiness,
   Layers3,
   BadgeCheck,
+  LinkedIn,
 } from "lucide-react";
 
 const stats = [
   {
     icon: <BriefcaseBusiness size={28} />,
-    value: "7+",
+    value: "8+",
     label: "Anni di esperienza",
   },
   {
@@ -49,16 +50,27 @@ export default function About() {
           </h2>
 
           <p className="mt-8 text-lg leading-8 text-zinc-400">
-            Sono uno sviluppatore Full Stack specializzato nello sviluppo
-            di applicazioni web moderne, software gestionali,
-            e-commerce e integrazioni API.
+            Sono uno sviluppatore Full Stack con oltre 8 anni di esperienza nel mondo dello sviluppo software. 
+            Nel corso degli anni ho avuto modo di lavorare in diverse realtà aziendali, 
+            confrontandomi con team, progetti ed esigenze di business differenti.
           </p>
 
           <p className="mt-6 text-lg leading-8 text-zinc-400">
-            Collaboro con aziende e web agency trasformando idee
-            ed esigenze di business in applicazioni performanti,
-            scalabili e semplici da mantenere.
+            Ho sviluppato applicazioni web, software gestionali, e-commerce, piattaforme personalizzate e integrazioni API, 
+            lavorando sia sul frontend che sul backend e occupandomi dell'intero processo di sviluppo.
+            Le esperienze maturate in ambito aziendale mi hanno insegnato non solo a scrivere codice, ma soprattutto a capire i problemi, 
+            trovare soluzioni concrete e trasformare le esigenze in prodotti digitali funzionali e affidabili.
           </p>
+
+        <div className="mt-10 flex justify-center gap-4">
+          <a
+            href="https://www.linkedin.com/in/giuseppe-pisani93/"
+            className="flex items-center gap-2 rounded-xl bg-emerald-500 px-5 py-3 font-semibold text-black transition hover:scale-105"
+          >
+            <LinkedIn size={20} />
+            Il mio profilo Linkedin
+          </a>
+        </div>
 
         </div>
 
