@@ -59,6 +59,9 @@ export default function About() {
           <p className="mt-6 text-lg leading-8 text-zinc-400">
             Ho sviluppato applicazioni web, software gestionali, e-commerce, piattaforme personalizzate e integrazioni API, 
             lavorando sia sul frontend che sul backend e occupandomi dell'intero processo di sviluppo.
+          </p>
+
+          <p className="mt-6 text-lg leading-8 text-zinc-400">
             Le esperienze maturate in ambito aziendale mi hanno insegnato non solo a scrivere codice, ma soprattutto a capire i problemi, 
             trovare soluzioni concrete e trasformare le esigenze in prodotti digitali funzionali e affidabili.
           </p>
