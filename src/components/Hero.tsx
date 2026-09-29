@@ -82,7 +82,7 @@ const Hero = () => {
               "Full Stack Developer",
               2000,
             ]}
-            speed={50}
+            speed={25}
             repeat={Infinity}
           />
         </h2>
