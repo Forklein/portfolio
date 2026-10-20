@@ -6,7 +6,7 @@ import afbeautyart from "../assets/images/afbeautyart.webp";
 import gossyparty from "../assets/images/gossyparty.webp";
 import eterea from "../assets/images/eterea.webp";
 // import caseificio from "../assets/images/caseificio.webp";
-import avvocato from "../assets/images/avvocato.webp";
+// import avvocato from "../assets/images/avvocato.webp";
 import horsescript from "../assets/images/horse.webp";
 // import porterossestudio from "../assets/images/porterossestudio.webp";
 // import procreateproject from "../assets/images/procreateproject.webp";
@@ -185,7 +185,7 @@ export const projects: Project[] = [
     ],
     category: "Professional Website",
     featured: true,
-  }
+  },
   // {
   //   id: "caseificio-artigiana",
   //   title: "Caseificio Artigiana",
@@ -251,25 +251,25 @@ export const projects: Project[] = [
     featured: true,
   },
 
-  {
-    id: "avvocato-emilia-pisani",
-    title: "Avvocato Emilia Pisani",
+  // {
+  //   id: "avvocato-emilia-pisani",
+  //   title: "Avvocato Emilia Pisani",
 
-    description:
-      "Sviluppo di un sito web professionale in WordPress con funzionalità personalizzate, aree servizi dinamiche, gestione dei contenuti e ottimizzazioni SEO, progettato per valorizzare l'attività dello studio legale e facilitare il contatto con i clienti.",
+  //   description:
+  //     "Sviluppo di un sito web professionale in WordPress con funzionalità personalizzate, aree servizi dinamiche, gestione dei contenuti e ottimizzazioni SEO, progettato per valorizzare l'attività dello studio legale e facilitare il contatto con i clienti.",
 
-    image: avvocato,
+  //   image: avvocato,
 
-    technologies: [
-      "WordPress",
-      "PHP",
-      "JavaScript",
-      "MySQL",
-      "SEO"
-    ],
+  //   technologies: [
+  //     "WordPress",
+  //     "PHP",
+  //     "JavaScript",
+  //     "MySQL",
+  //     "SEO"
+  //   ],
 
-    category: "Professional Website",
+  //   category: "Professional Website",
 
-    featured: true,
-  }
+  //   featured: true,
+  // }
 ];
