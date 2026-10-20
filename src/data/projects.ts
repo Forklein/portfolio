@@ -12,6 +12,7 @@ import horsescript from "../assets/images/horse.webp";
 // import procreateproject from "../assets/images/procreateproject.webp";
 import thesocietyluxury from "../assets/images/thesocietyluxury.webp";
 import vespaescape from "../assets/images/vespaescape.webp";
+import borgo from "../assets/images/borgo.webp";
 
 export const projects: Project[] = [
   {
@@ -172,6 +173,19 @@ export const projects: Project[] = [
 
     featured: true,
   },
+  {
+    id: "borgo",
+    title: "Borgo Marietta",
+    description:
+      "Sviluppo di un sito web per un agriturismo in Puglia, con gestione delle prenotazioni, presentazione delle camere e delle esperienze offerte, ottimizzazioni SEO e personalizzazioni per migliorare l'esperienza utente.",
+    image: borgo,
+    technologies: [
+      "WordPress",
+      "PHP"
+    ],
+    category: "Professional Website",
+    featured: true,
+  }
   // {
   //   id: "caseificio-artigiana",
   //   title: "Caseificio Artigiana",

@@ -63,7 +63,7 @@ export default function ProjectCard({ project }: Props) {
           {project.description}
         </p>
 
-        <div className="mt-8 flex flex-wrap gap-2">
+        {/* <div className="mt-8 flex flex-wrap gap-2">
           {project.technologies.map((tech) => (
             <span
               key={tech}
@@ -81,7 +81,7 @@ export default function ProjectCard({ project }: Props) {
               {tech}
             </span>
           ))}
-        </div>
+        </div> */}
 
       </div>
     </article>

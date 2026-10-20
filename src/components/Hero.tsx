@@ -88,8 +88,14 @@ const Hero = () => {
         </h2>
 
         <p className="mx-auto mt-8 max-w-3xl text-lg leading-8 text-zinc-400 md:text-xl">
-          Realizzo applicazioni web moderne, software gestionali,
-          e-commerce e integrazioni API.
+          <TypeAnimation
+            sequence={[
+              "Realizzo applicazioni web moderne, software gestionali, e-commerce e integrazioni API.",
+              2500,
+            ]}
+            speed={20}
+            repeat={Infinity}
+          />
         </p>
 
         <div className="mt-10 flex justify-center gap-4">
