@@ -76,7 +76,7 @@ const Hero = () => {
           />
         </div>
 
-        <h2 className="mt-6 text-4xl font-bold text-emerald-400 md:text-2xl">
+        <h2 className="mt-6 text-2xl font-bold text-emerald-400 md:text-4xl">
           <TypeAnimation
             sequence={[
               "Full Stack Developer",
