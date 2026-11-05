@@ -69,13 +69,11 @@ const Hero = () => {
         </h1>
 
         <div className="flex justify-center my-6">
-          <div className="w-28 h-28 rounded-full overflow-hidden border-4 border-zinc-800 shadow-lg">
-            <img
-              src="/profile.jpeg"
-              alt="Giuseppe Pisani"
-              className="w-full h-full object-cover scale-125 object-center"
-            />
-          </div>
+          <img
+            src="/profile.jpeg"
+            alt="Giuseppe Pisani"
+            className="w-28 h-28 rounded-full object-cover object-top border-4 border-zinc-800 shadow-lg"
+          />
         </div>
 
         <h2 className="mt-6 text-2xl font-bold text-emerald-400 md:text-4xl">
