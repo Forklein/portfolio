@@ -70,7 +70,7 @@ const Hero = () => {
 
         <div className="flex justify-center my-6">
           <img
-            src="/profile.jpeg"
+            src="/profile.webp"
             alt="Giuseppe Pisani"
             className="w-28 h-28 rounded-full object-cover object-top border-4 border-zinc-800 shadow-lg"
           />
