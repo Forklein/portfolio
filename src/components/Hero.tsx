@@ -72,7 +72,7 @@ const Hero = () => {
           <img
             src="/profile.webp"
             alt="Giuseppe Pisani"
-            className="w-28 h-28 rounded-full object-cover object-top border-4 border-zinc-800 shadow-lg"
+            className="w-28 h-28 md:w-50 md:h-50 rounded-full object-cover object-top border-4 border-zinc-800 shadow-lg"
           />
         </div>
 
