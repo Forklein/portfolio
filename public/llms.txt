@@ -1,0 +1,59 @@
+
+# Giuseppe Pisani - Full Stack Web Developer
+
+> Giuseppe Pisani is an Italian freelance Full Stack Web Developer specializing in web development, custom web applications, e-commerce, integrations, automation and modern digital solutions for businesses and professionals in Monopoli, Conversano and Puglia.
+
+## About
+
+Giuseppe Pisani is a Full Stack Web Developer with experience in designing, developing and maintaining websites, web applications and custom digital solutions.
+
+He works with modern technologies to build scalable, performant and maintainable software, helping businesses digitize processes, improve their online presence and automate workflows.
+
+Website: https://www.giuseppepisani.dev/
+
+## Services
+
+- Website development and custom websites
+- E-commerce development
+- Custom web applications
+- Full Stack development
+- CRM integrations
+- API integrations
+- Business process automation
+- AI-powered applications and chatbots
+- WordPress development
+- Shopify development
+- Technical consulting
+
+## Technologies
+
+- PHP
+- Laravel
+- JavaScript
+- TypeScript
+- React
+- Node.js
+- MySQL
+- MongoDB
+- Redux Toolkit
+- Docker
+- WordPress
+- Shopify
+
+## Location and Service Area
+
+Giuseppe Pisani provides web development and digital services to businesses, professionals and companies in:
+
+- Monopoli, Puglia, Italy
+- Conversano, Puglia, Italy
+- Bari and surrounding areas
+- Puglia, Italy
+- Remote clients throughout Italy
+
+## Professional Focus
+
+Full Stack Web Development, software engineering, web technologies, digital transformation, custom software, e-commerce, integrations and automation.
+
+## Contact and Portfolio
+
+- Portfolio: https://www.giuseppepisani.dev/
